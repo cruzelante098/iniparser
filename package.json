@@ -1,0 +1,25 @@
+{
+  "name": "alu0101040288/iniparser",
+  "version": "1.0.0",
+  "description": "INI parser",
+  "main": "lib/iniparser.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "test:watch": "mocha --watch --reporter min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cruzelante098/iniparser"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "expect": "^24.5.0",
+    "mocha": "^6.0.2",
+  },
+  "author": "Francisco Cruz <alu0101040288@ull.edu.es> (https://github.com/ULL-ESIT-PL-1819/p4-t2-lexer-cruzelante098/tree/reto2-iniparser)",
+  "license": "ISC"
+}
